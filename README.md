@@ -5,6 +5,7 @@
 ### DEMO
 
 [![Nextjs Landing Page Template Screenshot](public/assets/images/home-screenshot.png?raw=true)](https://tabela-fipe-five.vercel.app/)
+[![Nextjs Landing Page Template Screenshot](public/assets/images/result-screenshot.png?raw=true)](https://tabela-fipe-five.vercel.app/)
 
 Check out our [live demo](https://tabela-fipe-five.vercel.app/).
 
