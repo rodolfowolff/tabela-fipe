@@ -4,7 +4,7 @@
 
 ### DEMO
 
-[![Nextjs Landing Page Template Screenshot](public/assets/images/nextjs-landing-page-screenshot.png?raw=true)](https://www.fipe.com//)
+[![Nextjs Landing Page Template Screenshot](public/assets/images/home-page-screenshot.png?raw=true)](https://www.fipe.com//)
 
 Check out our [live demo](https://www.fipe.com/).
 
