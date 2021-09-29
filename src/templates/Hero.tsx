@@ -26,11 +26,6 @@ interface Fipe {
   Valor: string;
 }
 
-// const navigation = [
-//   { name: 'Home', href: '#' },
-//   { name: 'Favoritos', href: '#' },
-// ];
-
 const Vehicle = {
   models: [
     { name: 'CARROS', value: 'carros', icon: FaCarAlt },
@@ -193,7 +188,7 @@ export const Hero = () => {
                           // disabled={!size.inStock}
                         >
                           <size.icon
-                            className="mx-auto h-6 w-6 flex-shrink-0 text-gray-500"
+                            className="mx-auto h-6 w-6 flex-shrink-0"
                             aria-hidden="true"
                           />
 
@@ -214,7 +209,7 @@ export const Hero = () => {
                         className={
                           resVeiculos.length
                             ? 'text-lg font-medium text-indigo-600'
-                            : 'block text-base font-medium text-gray-500'
+                            : 'block text-base font-medium text-gray-700'
                         }
                       >
                         Marcas
@@ -249,7 +244,7 @@ export const Hero = () => {
                         className={
                           resMarcas.length
                             ? 'text-lg font-medium text-indigo-600'
-                            : 'block text-base font-medium text-gray-500'
+                            : 'block text-base font-medium text-gray-700'
                         }
                       >
                         Modelos
@@ -284,7 +279,7 @@ export const Hero = () => {
                         className={
                           resModelos.length
                             ? 'text-lg font-medium text-indigo-600'
-                            : 'block text-base font-medium text-gray-500'
+                            : 'block text-base font-medium text-gray-700'
                         }
                       >
                         Ano
@@ -316,7 +311,7 @@ export const Hero = () => {
                 </form>
               </div>
 
-              {!!resAnos && !resAnos.length && (
+              {!!resAnos && (
                 <div className="mt-8 lg:col-span-5">
                   <section aria-labelledby="policies-heading" className="mt-10">
                     <dl className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
@@ -327,7 +322,7 @@ export const Hero = () => {
                             className="bg-gray-200 border-transparent hover:bg-indigo-100 rounded-lg p-6 text-center"
                           >
                             <dt>
-                              <span className="mt-4 text-base font-medium text-gray-600">
+                              <span className="mt-4 text-base font-medium text-gray-700">
                                 {res[0]}
                               </span>
                             </dt>
