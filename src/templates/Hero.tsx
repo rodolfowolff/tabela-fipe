@@ -187,10 +187,7 @@ export const Hero = () => {
                           }
                           // disabled={!size.inStock}
                         >
-                          <size.icon
-                            className="mx-auto h-6 w-6 flex-shrink-0"
-                            aria-hidden="true"
-                          />
+                          <size.icon className="mx-auto h-6 w-6 flex-shrink-0" />
 
                           <RadioGroup.Label as="p">
                             {size.value}
@@ -313,7 +310,7 @@ export const Hero = () => {
 
               {!!resAnos && (
                 <div className="mt-8 lg:col-span-5">
-                  <section aria-labelledby="policies-heading" className="mt-10">
+                  <section className="mt-10">
                     <dl className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
                       {Object.entries(resAnos).map(
                         (res: any, index: number) => (

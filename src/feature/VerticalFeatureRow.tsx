@@ -1,9 +1,6 @@
 const VerticalFeatureRow = () => {
   return (
-    <div
-      className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full"
-      aria-hidden="true"
-    >
+    <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
       <div className="relative h-full max-w-7xl mx-auto">
         <svg
           className="absolute right-full transform translate-y-1/4 translate-x-1/4 lg:translate-x-1/2"

@@ -13,10 +13,7 @@ const navigation = [
 const VerticalFeatures = () => (
   <Popover>
     <div className="max-w-7xl mx-auto px-4 sm:px-6">
-      <nav
-        className="relative flex items-center justify-between sm:h-10 md:justify-center"
-        aria-label="Global"
-      >
+      <nav className="relative flex items-center justify-between sm:h-10 md:justify-center">
         <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
           <div className="flex items-center justify-between w-full md:w-auto">
             <a href="#">
@@ -26,7 +23,7 @@ const VerticalFeatures = () => (
             <div className="-mr-2 flex items-center md:hidden">
               <Popover.Button className="bg-gray-50 rounded-md p-2 inline-flex items-center justify-center text-gray-700 hover:text-gray-800 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                 <span className="sr-only">Open main menu</span>
-                <FaTh className="h-6 w-6" aria-hidden="true" />
+                <FaTh className="h-6 w-6" />
               </Popover.Button>
             </div>
           </div>
@@ -66,7 +63,7 @@ const VerticalFeatures = () => (
             <div className="-mr-2">
               <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                 <span className="sr-only">Close menu</span>
-                <FaTimes className="h-6 w-6" aria-hidden="true" />
+                <FaTimes className="h-6 w-6" />
               </Popover.Button>
             </div>
           </div>
